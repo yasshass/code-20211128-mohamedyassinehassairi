@@ -28,7 +28,7 @@ In the bmi calculation module, the following tasks are implemented:
  - save the resulting dataframe in a json file
  
  #### Configuration, tests and build
- For configuration a settings.py is used with the decouple library to read variables set in an .env file or in as environment variables.
- For tests, unittest is used for unit testing with tox to automate the testing
- For build, setuptools is used to package the project, exposing a entrypoint 'calculate_bmi'
+ - For configuration a settings.py is used with the decouple library to read variables set in an .env file or in as environment variables.
+ - For tests, unittest is used for unit testing with tox to automate the testing
+ - For build, setuptools is used to package the project, exposing a entrypoint 'calculate_bmi'
  
