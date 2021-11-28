@@ -33,5 +33,6 @@ In the calculator_bmi module, the following tasks are implemented:
  - For build, setuptools is used to package the project, exposing a entrypoint 'calculate_bmi'. 
  
  command to run : JSON_OUTPUT_PATH=<json_output_path> JSON_INPUT_PATH=<json_input_path> python -m bmi_calculator.calculate_bmi. 
+ 
  or JSON_OUTPUT_PATH=<json_output_path> JSON_INPUT_PATH=<json_input_path> calculate_bmi
  
