@@ -31,6 +31,7 @@ In the calculator_bmi module, the following tasks are implemented:
  - For configuration a settings.py is used with the decouple library to read variables set in an .env file or as environment variables.
  - For tests, unittest is used for unit testing with tox to automate the testing
  - For build, setuptools is used to package the project, exposing a entrypoint 'calculate_bmi'. 
+ 
  command to run : JSON_OUTPUT_PATH=<json_output_path> JSON_INPUT_PATH=<json_input_path> python -m bmi_calculator.calculate_bmi. 
  or JSON_OUTPUT_PATH=<json_output_path> JSON_INPUT_PATH=<json_input_path> calculate_bmi
  
