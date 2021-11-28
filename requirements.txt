@@ -1,0 +1,6 @@
+## CONF
+python-decouple==3.5
+## DATA
+pandas==1.3.4
+## testing
+pytest==6.2.5
